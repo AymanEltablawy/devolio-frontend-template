@@ -1,0 +1,364 @@
+.home {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+.dev {
+  font-size: 30px;
+}
+.header h1 {
+  font-size: 70px;
+}
+h1 span {
+  font-size: 50px;
+}
+div .text-typed::after {
+  content: "designer";
+  position: relative;
+  left: 30%;
+  animation: typed 10s infinite;
+  border-right: 5px solid black;
+}
+@keyframes typed {
+  0% {
+    content: "d";
+  }
+  2% {
+    content: "de";
+  }
+  4% {
+    content: "des";
+  }
+  6% {
+    content: "desi";
+  }
+  8% {
+    content: "desig";
+  }
+  10% {
+    content: "design";
+  }
+  12% {
+    content: "designe";
+  }
+  14% {
+    content: "designer";
+  }
+  18% {
+    content: "designe";
+  }
+  20% {
+    content: "design";
+  }
+  22% {
+    content: "desig";
+  }
+  24% {
+    content: "desi";
+  }
+  26% {
+    content: "des";
+  }
+  28% {
+    content: "de";
+  }
+  30% {
+    content: "d";
+  }
+  31% {
+    content: "";
+  }
+  33% {
+    content: "p";
+  }
+  35% {
+    content: "ph";
+  }
+  37% {
+    content: "pho";
+  }
+  39% {
+    content: "phot";
+  }
+  41% {
+    content: "photo";
+  }
+  43% {
+    content: "photog";
+  }
+  45% {
+    content: "photogr";
+  }
+  47% {
+    content: "photogra";
+  }
+  49% {
+    content: "photograp";
+  }
+  51% {
+    content: "photograph";
+  }
+  53% {
+    content: "photographe";
+  }
+  55% {
+    content: "photographer";
+  }
+  59% {
+    content: "photographe";
+  }
+  61% {
+    content: "photograph";
+  }
+  63% {
+    content: "photograp";
+  }
+  65% {
+    content: "photogra";
+  }
+  67% {
+    content: "photogr";
+  }
+  69% {
+    content: "photog";
+  }
+  71% {
+    content: "photo";
+  }
+  73% {
+    content: "phot";
+  }
+  75% {
+    content: "pho";
+  }
+  76% {
+    content: "ph";
+  }
+  77% {
+    content: "p";
+  }
+  78% {
+    content: "";
+  }
+  79% {
+    content: "d";
+  }
+  80% {
+    content: "de";
+  }
+  81% {
+    content: "dev";
+  }
+  82% {
+    content: "deve";
+  }
+  84% {
+    content: "devel";
+  }
+  85% {
+    content: "develo";
+  }
+  86% {
+    content: "develop";
+  }
+  87% {
+    content: "develope";
+  }
+  88% {
+    content: "developer";
+  }
+  91% {
+    content: "develope";
+  }
+  92% {
+    content: "develo";
+  }
+  93% {
+    content: "devel";
+  }
+  94% {
+    content: "deve";
+  }
+  95% {
+    content: "dev";
+  }
+  96% {
+    content: "de";
+  }
+  97% {
+    content: "d";
+  }
+  98% {
+    content: "d";
+  }
+  100% {
+    content: "";
+  }
+}
+.about .container {
+  box-shadow: 0px 0px 5px gray;
+}
+
+.about-cont h2 {
+  position: relative;
+}
+.about-cont h2::after {
+  content: "";
+  width: 100px;
+  height: 3.5px;
+  background-color: #09c;
+  position: absolute;
+  top: 120%;
+  left: 0%;
+}
+.serv-cont p {
+  position: relative;
+}
+.serv-cont p::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  position: absolute;
+  background-color: #09c;
+  top: 50%;
+  left: 48%;
+}
+
+.icon-bo {
+  transition: all 1s;
+}
+.serv-cont .icon-bo {
+  border: 10px #09c solid;
+  border-radius: 50%;
+}
+.serv-h:hover .icon-bo {
+  background-color: #09c;
+  border-color: #f5f5f5;
+}
+.info {
+  margin-top: 60px;
+  background-image: linear-gradient(
+      rgba(0, 122, 255, 0.7),
+      rgba(0, 122, 255, 0.7)
+    ),
+    url(/img/workspace.avif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.port-cont p {
+  position: relative;
+}
+.port-cont p::before {
+  content: "";
+  width: 40px;
+  height: 5px;
+  position: absolute;
+  background-color: #09c;
+  top: 170%;
+  left: 48%;
+}
+.port-h img {
+  transition: all 1s;
+}
+.port-h {
+  overflow: hidden;
+}
+.port-h:hover img {
+  transform: scale(1.2);
+}
+.testimonial .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.testimonial {
+  margin-top: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: linear-gradient(
+      rgba(0, 122, 255, 0.7),
+      rgba(0, 122, 255, 0.7)
+    ),
+    url(/img/forest.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+.blog .header p {
+  position: relative;
+}
+.blog .header p::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  position: absolute;
+  background-color: #09c;
+  top: 160%;
+  left: 49%;
+}
+.item-info img {
+  width: 8%;
+  border-radius: 50%;
+}
+.small-item {
+  background-color: #09c;
+  width: fit-content;
+  position: absolute;
+  top: 61%;
+  left: 46%;
+  border-radius: 3px;
+}
+.contact-pa {
+  padding-left: 30px;
+}
+.contact-pa h2 {
+  position: relative;
+}
+.contact-pa h2::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: #09c;
+  position: absolute;
+  top: 120%;
+  left: 0;
+}
+.contact-content h2 {
+  position: relative;
+}
+.contact-content h2::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background-color: #09c;
+  position: absolute;
+  top: 120%;
+  left: 0;
+}
+form input {
+  height: 40px;
+}
+form button {
+  height: 50px;
+  width: 50px;
+}
+.contact {
+  background-image: linear-gradient(
+      rgba(0, 122, 255, 0.7),
+      rgba(0, 122, 255, 0.7)
+    ),
+    url(/img/forest.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.contact .container {
+  background-color: white;
+  margin-top: 70px;
+}
